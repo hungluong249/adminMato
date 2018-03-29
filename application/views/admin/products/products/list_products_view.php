@@ -73,38 +73,7 @@
                                     </td>
 
                                 </tr>
-                                <tr>
-                                    <td colspan="10">
-                                        <div class="collapse" id="collapse_1">
-                                            <div class="well">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Year</th>
-                                                            <th>Ingredients</th>
-                                                            <th>Production</th>
-                                                            <th>Made in</th>
-                                                            <th>Weight</th>
-                                                            <th>Volume</th>
-                                                            <th>Status</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>2015</td>
-                                                            <td>Alumium</td>
-                                                            <td>Dell</td>
-                                                            <td>China</td>
-                                                            <td>1kg</td>
-                                                            <td></td>
-                                                            <td>New 99%</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
+
                                 <tr>
                                     <td>2</td>
                                     <td>
