@@ -89,6 +89,19 @@
                             ?>
                             <p class="help-block">Click to upload. First image 'll be used as avatar of the product.</p>
                         </div>
+						<div class="image-preview col-md-12">
+							<label>Image preview:</label>
+							<div class="item">
+								<div class="mask">
+									<img src="https://i5.walmartimages.com/asr/83532a19-d7c2-4628-bfc9-defd8862820e_1.ce9eb1fa80f30adb291ccc08f36e50b2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
+									<span class="close-preview"><i class="fa fa-2x fa-close" aria-hidden="true"></i></span>
+								</div>
+								<div class="mask">
+									<img src="https://i5.walmartimages.com/asr/83532a19-d7c2-4628-bfc9-defd8862820e_1.ce9eb1fa80f30adb291ccc08f36e50b2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
+									<span class="close-preview"><i class="fa fa-2x fa-close" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
                         <div class="form-group col-md-12">
                             <?php
                             echo form_label('Description', 'products_description');
