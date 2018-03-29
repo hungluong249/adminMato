@@ -46,4 +46,8 @@ class Products extends Admin_Controller {
         $this->render('admin/products/category/edit_category_2_view');
     }
 
+    public function detail(){
+        $this->render('admin/products/products/detail_products_view');
+    }
+
 }
