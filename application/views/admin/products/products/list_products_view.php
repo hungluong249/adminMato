@@ -61,6 +61,7 @@
                                     <td>Laptop</td>
                                     <td>Sit amet salami venison chicken flank fatback doner.</td>
                                     <td>
+										<a href="<?php echo base_url('admin/products/detail') ?>"
                                         <button class="btn btn-default btn-sm" type="button" data-toggle="collapse" data-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1">See Detail</button>
                                     </td>
                                     <td>Electricity</td>
