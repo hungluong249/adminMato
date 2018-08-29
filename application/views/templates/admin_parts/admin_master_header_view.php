@@ -21,6 +21,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="<?php echo site_url('assets/public/lib/') ?>dist/css/skins/skin-black-light.css">
+    <!-- DatePickerX Plugin -->
+    <link rel="stylesheet" href="<?php echo site_url('assets/public/lib/') ?>DatePickerX/DatePickerX.min.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,12 +42,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Bootstrap 3.3.7 -->
     <script src="<?php echo site_url('assets/public/lib/') ?>bootstrap/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="<?php echo site_url('tinymce/tinymce.min.js') ?>" ></script>
+
 
 </head>
 
 <body class="hold-transition skin-black-light sidebar-mini">
 <div class="wrapper">
-
+    <p id="remove-space"></p>
     <header class="main-header">
         <!-- Logo -->
         <a href="<?php echo base_url('admin/dashboard')?>" class="logo">
