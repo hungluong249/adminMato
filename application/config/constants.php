@@ -83,3 +83,62 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/**
+ * HTTP Success code
+ */
+defined('HTTP_SUCCESS') OR define('HTTP_SUCCESS', 200);
+
+
+/**
+ * HTTP Error code
+ */
+defined('HTTP_BAD_REQUEST') OR define('HTTP_BAD_REQUEST', 400);
+defined('HTTP_NOT_FOUND') OR define('HTTP_NOT_FOUND', 404);
+
+
+/**
+ * Message Success code
+ */
+defined('MESSAGE_CREATE_SUCCESS') OR define('MESSAGE_CREATE_SUCCESS', 'Thêm mới thành công!');
+
+/**
+ * Message Success code
+ */
+defined('MESSAGE_CREATE_ERROR') OR define('MESSAGE_CREATE_ERROR', 'Thêm mới thất bại!');
+
+defined('MESSAGE_CREATE_ERROR_VALIDATE') OR define('MESSAGE_CREATE_ERROR_VALIDATE', 'Lỗi thêm mới cấu hình vui lòng thao tác lại.');
+
+
+/**
+ * Message Success code
+ */
+defined('MESSAGE_UPDATE_SUCCESS') OR define('MESSAGE_UPDATE_SUCCESS', 'Sửa thành công!');
+
+/**
+ * Message Success code
+ */
+defined('MESSAGE_UPDATE_ERROR') OR define('MESSAGE_UPDATE_ERROR', 'Sửa thất bại!');
+
+defined('MESSAGE_UPDATE_ERROR_VALIDATE') OR define('MESSAGE_UPDATE_ERROR_VALIDATE', 'Lỗi sửa cấu hình vui lòng thao tác lại.');
+
+
+/**
+ * Message Success code
+ */
+defined('MESSAGE_REMOVE_SUCCESS') OR define('MESSAGE_REMOVE_SUCCESS', 'Xóa thành công!');
+
+/**
+ * Message error code
+ */
+defined('MESSAGE_REMOVE_ERROR') OR define('MESSAGE_REMOVE_ERROR', 'Xóa thất bại!');
+
+/**
+ * Message Success code
+ */
+defined('MESSAGE_ISSET_ERROR') OR define('MESSAGE_ISSET_ERROR', 'ID không tồn tại!');
+
+/**
+ * Message check id product category 
+ */
+defined('MESSAGE_ID_ERROR') OR define('MESSAGE_ID_ERROR', 'ID phải là số và lớn hơn 0');
